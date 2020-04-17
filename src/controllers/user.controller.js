@@ -19,7 +19,7 @@ class userController {
 
             resultRequest = resultRequest.results;
             users = resultRequest.sort((a,b)=>{
-                //Criterio de ordernamiento: las primera letras del nombre
+                
                 if(a.name.first > b.name.first){
                     return 1;
                 } else if (a.name.first < b.name.first) {
@@ -70,7 +70,6 @@ class userController {
             } else {
                 res.status(200).json({
                     msg: `La consulta no arrojó resultados.`,
-                    tamaño_muestra: cant,
                     result: null
                 });
             }

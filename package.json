@@ -20,7 +20,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "express": "^4.17.1",
-    "log4js": "^6.1.2"
+    "log4js": "^6.4.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
